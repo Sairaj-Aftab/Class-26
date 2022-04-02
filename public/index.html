@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="post-box my-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="card py-2 px-3 shadow-sm">
+                        <div class="enter d-flex justify-content-between align-items-center">
+                            <img src="" alt="">
+                            <button data-bs-toggle="modal" data-bs-target="#post-form">What's on your mind, Sairaj?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="post-item">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 all-posts">
+                    <!-- Post item area  -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="post-form">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-block text-center">
+                    <h5>Create Post</h5>
+                    <p></p>
+                </div>
+                <div class="modal-body">
+                    <form class="form-area" method="POST">
+                        <div class="form-group my-2">
+                            <input name="name" type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group my-2">
+                            <input name="photo" type="text" class="form-control" placeholder="Your Photo">
+                        </div>
+                        <div class="form-group my-2">
+                            <input name="describe" type="text" class="form-control" placeholder="Describe whatever you want">
+                        </div>
+                        <div class="form-group my-2">
+                            <input name="post" type="text" class="form-control" placeholder="Post Photo">
+                        </div>
+                        <div class="form-group my-2">
+                            <input type="submit" class="btn btn-primary w-100" value="Post">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="../src/index.js"></script>
+</body>
+</html>
